@@ -1,0 +1,52 @@
+.card-container{
+    width: 450px;
+    box-shadow: 0 5px 10px black;
+    margin: 50px auto;
+    font-weight: bolder;
+}
+.card-image img{
+    width: 350px;
+    height: 300px;
+    margin-left: 45px;
+    margin-top: 20px;
+    box-shadow: 0 5px 10px black;
+}
+.card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.card-footer{
+    box-shadow: 0 5px 10px black;
+    
+    position: relative;
+    margin: 10px 40px;
+
+}
+#heart{
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 35px;
+}
+#likes{
+    padding-left: 45px;
+    padding-bottom: 5px;
+}
+#share{
+    position: absolute;
+    padding-left: 100px;
+    font-size: 35px;
+    top: 10px;
+}
+#date{
+    position: absolute;
+    right: 40px;
+    top: 10px;
+}
+.description{
+    padding: 10px;
+    text-align: center;
+}
+
